@@ -46,7 +46,7 @@ Then I will see error message in red center aligned **“Invalid email format. E
 Given I am customer  
 When E-mail Address is in valid format   
 And I click submit  
-Then I will see error message in red center aligned **“Thanks! We will notify you of our new shoes at this email: <E-mail address here>”**  
+Then I will see error message in red center aligned **“Thanks! We will notify you of our new shoes at this email: E-mail address here”**  
 
 ###### Promotional Code 
 Given I am customer  
