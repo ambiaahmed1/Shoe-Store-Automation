@@ -5,6 +5,7 @@ Shoe Store!
 * TestNG v6.9.10
 * Bonigarcia v3.8.1
 * Selenium v3.141.59
+* 100% Java
 
 ## How to Run Project
 * git clone https://github.com/ambiaahmed1/Shoe-Store_Auto.git
