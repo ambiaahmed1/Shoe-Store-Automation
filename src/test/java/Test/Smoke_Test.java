@@ -13,5 +13,6 @@ public class Smoke_Test extends TestBase {
         pages.shoePage().validateTitle();
         pages.shoePage().validateNavComponent();
         pages.shoePage().validateStaticContentOnPage();
+
     }
 }

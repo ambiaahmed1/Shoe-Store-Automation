@@ -35,6 +35,10 @@ public class ShoePage extends BasePage {
     @FindBy(xpath = "//input[@name='email']")
     private WebElement e_mail;
 
+    @FindBy(xpath = "//label[contains(text(), 'Promotional Code')]")
+    private WebElement promotional_code;
+
+
     @FindBy(xpath = "//input[@id='remind_email_submit']")
     private WebElement e_mail_subtmit;
 
@@ -62,6 +66,20 @@ public class ShoePage extends BasePage {
     @FindBy(xpath = "//div[contains(text(),'Invalid code format')]")
     private WebElement promo_invalid_error;
 
+    @FindBy(xpath = "//h2[contains(text(), 'Welcome to Shoe Store!')]")
+    private WebElement welcome_to_shoe_store;
+
+    @FindBy(xpath = "//legend[@class='form_heading']")
+    private WebElement pre_order;
+
+    @FindBy(xpath = "//label[contains(text(), 'Choose a brand')]")
+    private WebElement choose_a_brand;
+
+    @FindBy(xpath = "//label[contains(text(), 'Remind me of new shoes')]")
+    private WebElement remind_me;
+
+    @FindBy(xpath = "//input[@type='submit' and @id='remind_email_submit']")
+    private WebElement submit;
 
     @FindBy(id = "promo_code_submit")
     private WebElement promo_submit;
@@ -79,11 +97,14 @@ public class ShoePage extends BasePage {
     }
 
     public void validateStaticContentOnPage() {
-        Assert.assertEquals(home.getText(), "HOME");
-        Assert.assertEquals(january.getText(), "January");
-        Assert.assertEquals(february.getText(), "February");
-        Assert.assertEquals(march.getText(), "March");
-
+        Assert.assertEquals(welcome_to_shoe_store.getText(), "Welcome to Shoe Store!");
+        Assert.assertEquals(pre_order.getText(), "Pre-Order your shoes today");
+        Assert.assertEquals(choose_a_brand.getText(), "Choose a brand");
+        Assert.assertEquals(remind_me.getText(), "Remind me of new shoes");
+        Assert.assertEquals(promotional_code.getText(), "Promotional Code");
+        submit.isDisplayed();
+        promo_code.isDisplayed();
+        home.isDisplayed();
     }
 
     public void validateNavComponent() {
