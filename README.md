@@ -12,7 +12,20 @@ Shoe Store!
 Given I am a customer  
 When I enter the shoe store site with the following URL: https://shoe-store-july.herokuapp.com/  
 Then I will land on Show Store home page  
-And I will validate Page Title  
+And I will validate Page Title
+And I will validate static content
+And I will see 3 components:  
+* Remind me of new Shoes
+* Promotional Code
+* Choose a Brand  
+
+###### Navigation
+Given I am a customer  
+When I enter the shoe store site with the following URL: https://shoe-store-july.herokuapp.com/  
+Then I will land on Show Store home page  
+And I will be able to navigate across the page from January through December and All Shoes  
+And I will see header and static contents  
+
 
 ###### Remind me of new shoes
 Given I am customer  
@@ -60,4 +73,11 @@ Given I am customer
 When I view the brands from the drop down  
 Then I will see 254 brand names in alpha numeric case sensitive       
 
+
+  
+**Issues:**
+ 1.	Promotional Code does not give you the valid format on error message.
+ 2.	After completing a brand search and clicking the back button, message remains “Please Select a Brand”.
+ 3.	Input Text fields does not have any boundaries.
+ 4.	Failing to load images
 
