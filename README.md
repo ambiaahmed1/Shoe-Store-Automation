@@ -6,6 +6,11 @@ Shoe Store!
 * Bonigarcia v3.8.1
 * Selenium v3.141.59
 
+## How to Run Project
+* git clone https://github.com/ambiaahmed1/Shoe-Store_Auto.git
+* maven clean, install
+* run test individually from test package
+
 ## Test Case
 
 ###### Validate Home  
