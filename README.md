@@ -1,4 +1,4 @@
-# Shoe-Store_Auto - Ambia
+# Shoe-Store_Automate - Ambia
 Shoe Store!
 
 ## Technical Specifications
