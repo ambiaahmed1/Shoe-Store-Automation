@@ -50,5 +50,14 @@ Then I will see message center aligned top **“Please Select a Brand”**
 Given I am customer  
 When I DO select a brand from the drop down  
 And I click Search  
-Then I will see brand name on the next page: **/brands/name**
+Then I will see brand name on the next page: **/brands/name**  
+
+Given I am customer  
+When I view the brands from the drop down  
+Then I will see 254 brand names  
+  
+Given I am customer  
+When I view the brands from the drop down  
+Then I will see 254 brand names in alpha numeric case sensitve    
+
 
