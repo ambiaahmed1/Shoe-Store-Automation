@@ -8,7 +8,7 @@ Shoe Store!
 
 ## How to Run Project
 * git clone https://github.com/ambiaahmed1/Shoe-Store_Auto.git
-* maven clean, install
+* maven clean, install (will run tests if not skipped)
 * run test individually from test package
 
 ## Test Case
