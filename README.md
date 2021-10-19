@@ -2,8 +2,9 @@
 Shoe Store!
 
 ## Technical Specifications
-
-
+* TestNG v6.9.10
+* Bonigarcia v3.8.1
+* Selenium v3.141.59
 
 ## Test Case
 
@@ -38,7 +39,7 @@ Then I will see error message in red center aligned **“Please enter a promotio
 Given I am customer  
 When Promotional Code is in invalid format   
 And I click submit  
-Then I will see error message in red center aligned **“Invalid code format”**  
+Then I will ee error message in red center aligned **“Invalid code format”**  
   
 ###### Choose a Brand
 Given I am customer  
