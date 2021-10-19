@@ -32,6 +32,12 @@ public class ShoePage extends BasePage {
     @FindBy(linkText = "March")
     private WebElement march;
 
+    @FindBy(linkText = "April")
+    private WebElement april;
+
+    @FindBy(linkText = "May")
+    private WebElement may;
+
     @FindBy(xpath = "//input[@name='email']")
     private WebElement e_mail;
 
@@ -153,9 +159,11 @@ public class ShoePage extends BasePage {
         february.click();
     }
 
-    public void goToMarch() {
-        march.click();
-    }
+    public void goToMarch() {march.click();}
+
+    public void goToApril() {april.click();}
+
+    public void goToMay() {may.click();}
 
     public void goBack() {
         Driver.getDriver().navigate().back();
@@ -251,24 +259,6 @@ public class ShoePage extends BasePage {
         System.out.println(allBrands);
         System.out.println(actual);
 
-     /*   for(int i =0; i<brands.length; i++) {
-            actual[i] = dropDownOptions.get(i).getText();
-
-            Assert.assertEquals(Arrays.asList(actual[i]), brands[i].replace("\"",""));
-            System.out.println("Actual " +  actual[i]);
-            System.out.println("Expected " +  brands[i]);
-        }
-*/
-
-
-     /*   for(int i =0; i<elementCount.size(); i++) {
-            String optionValue = elementCount.get(i).getText();
-           // System.out.println(optionValue);
-
-        }*/
-
     }
-
-
 }
 

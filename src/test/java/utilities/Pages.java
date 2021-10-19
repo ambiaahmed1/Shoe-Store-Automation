@@ -1,15 +1,16 @@
 package utilities;
 
 import org.testng.Assert;
-import pages.FebruaryPage;
-import pages.JanuaryPage;
-import pages.ShoePage;
+import pages.*;
 
 public class Pages {
 
     private ShoePage shoePage;
     private JanuaryPage januaryPage;
     private FebruaryPage februaryPage;
+    private MarchPage marchPage;
+    private AprilPage aprilPage;
+    private MayPage mayPage;
 
 
     public ShoePage shoePage() {
@@ -31,6 +32,27 @@ public class Pages {
             februaryPage = new FebruaryPage();
         }
         return februaryPage;
+    }
+
+    public MarchPage marchPage() {
+        if (marchPage == null) {
+            marchPage = new MarchPage();
+        }
+        return marchPage;
+    }
+
+    public AprilPage aprilPage() {
+        if (aprilPage == null) {
+            aprilPage = new AprilPage();
+        }
+        return aprilPage;
+    }
+
+    public MayPage mayPage() {
+        if (mayPage == null) {
+            mayPage = new MayPage();
+        }
+        return mayPage;
     }
 
 
