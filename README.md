@@ -58,6 +58,6 @@ Then I will see 254 brand names
   
 Given I am customer  
 When I view the brands from the drop down  
-Then I will see 254 brand names in alpha numeric case sensitve    
+Then I will see 254 brand names in alpha numeric case sensitive       
 
 
