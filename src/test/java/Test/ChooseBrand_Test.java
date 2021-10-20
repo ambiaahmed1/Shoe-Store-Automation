@@ -31,4 +31,10 @@ public class ChooseBrand_Test extends TestBase {
         pages.shoePage();
         pages.shoePage().validateBrandUnSorted();
     }
+
+    @Test(description = "Validate Brand Content first letter is lowercase")
+    public void validate_brand_contents_letter() {
+        pages.shoePage();
+        pages.shoePage().validateforfirstLetter();
+    }
 }

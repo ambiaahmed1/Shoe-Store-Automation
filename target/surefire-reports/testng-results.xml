@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T22:17:56Z" name="Command line suite" finished-at="2021-10-19T22:18:17Z" duration-ms="20984">
+    <groups>
+    </groups>
+    <test started-at="2021-10-19T22:17:56Z" name="Command line test" finished-at="2021-10-19T22:18:17Z" duration-ms="20984">
+      <class name="Test.Nav_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Nav_Test@5b12b668]" started-at="2021-10-19T18:18:09Z" name="setup" finished-at="2021-10-19T18:18:10Z" duration-ms="980" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pageNavigation()[pri:0, instance:Test.Nav_Test@5b12b668]" started-at="2021-10-19T18:18:10Z" name="pageNavigation" description="Validate Page Navigation" finished-at="2021-10-19T18:18:11Z" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.Nav_Test@5b12b668]" started-at="2021-10-19T18:18:11Z" name="teardown" finished-at="2021-10-19T18:18:12Z" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=pageNavigation status=SUCCESS method=Nav_Test.pageNavigation()[pri:0, instance:Test.Nav_Test@5b12b668] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.Nav_Test -->
+      <class name="Test.Smoke_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Smoke_Test@4c12331b]" started-at="2021-10-19T18:18:15Z" name="setup" finished-at="2021-10-19T18:18:16Z" duration-ms="1106" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="goToShoeStore()[pri:0, instance:Test.Smoke_Test@4c12331b]" started-at="2021-10-19T18:18:16Z" name="goToShoeStore" description="Page verification" finished-at="2021-10-19T18:18:17Z" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToShoeStore -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.Smoke_Test@4c12331b]" started-at="2021-10-19T18:18:17Z" name="teardown" finished-at="2021-10-19T18:18:17Z" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=goToShoeStore status=SUCCESS method=Smoke_Test.goToShoeStore()[pri:0, instance:Test.Smoke_Test@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.Smoke_Test -->
+      <class name="Test.PromoCode_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.PromoCode_Test@1165b38]" started-at="2021-10-19T18:18:12Z" name="setup" finished-at="2021-10-19T18:18:13Z" duration-ms="979" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enter_Blank_Promo()[pri:0, instance:Test.PromoCode_Test@1165b38]" started-at="2021-10-19T18:18:13Z" name="enter_Blank_Promo" description="Validate Blank Promo Code!" finished-at="2021-10-19T18:18:13Z" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Blank_Promo -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.PromoCode_Test@1165b38]" started-at="2021-10-19T18:18:13Z" name="teardown" finished-at="2021-10-19T18:18:13Z" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=enter_Blank_Promo status=SUCCESS method=PromoCode_Test.enter_Blank_Promo()[pri:0, instance:Test.PromoCode_Test@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.PromoCode_Test@1165b38]" started-at="2021-10-19T18:18:13Z" name="setup" finished-at="2021-10-19T18:18:14Z" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enter_Invalid_Promo()[pri:0, instance:Test.PromoCode_Test@1165b38]" started-at="2021-10-19T18:18:14Z" name="enter_Invalid_Promo" description="Validate Invalid Promo Code!" finished-at="2021-10-19T18:18:15Z" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Invalid_Promo -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.PromoCode_Test@1165b38]" started-at="2021-10-19T18:18:15Z" name="teardown" finished-at="2021-10-19T18:18:15Z" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=enter_Invalid_Promo status=SUCCESS method=PromoCode_Test.enter_Invalid_Promo()[pri:0, instance:Test.PromoCode_Test@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.PromoCode_Test -->
+      <class name="Test.ChooseBrand_Test">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:17:56Z" name="setUpTest" finished-at="2021-10-19T18:17:56Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:17:56Z" name="setup" finished-at="2021-10-19T18:17:57Z" duration-ms="1478" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="select_brand()[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:17:57Z" name="select_brand" description="Select Brand" finished-at="2021-10-19T18:17:58Z" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_brand -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:17:58Z" name="teardown" finished-at="2021-10-19T18:17:58Z" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=select_brand status=SUCCESS method=ChooseBrand_Test.select_brand()[pri:0, instance:Test.ChooseBrand_Test@40a4337a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:17:58Z" name="setup" finished-at="2021-10-19T18:17:59Z" duration-ms="1011" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="select_brand_message()[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:17:59Z" name="select_brand_message" description="Select Brand Message" finished-at="2021-10-19T18:18:00Z" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_brand_message -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:00Z" name="teardown" finished-at="2021-10-19T18:18:00Z" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=select_brand_message status=SUCCESS method=ChooseBrand_Test.select_brand_message()[pri:0, instance:Test.ChooseBrand_Test@40a4337a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:00Z" name="setup" finished-at="2021-10-19T18:18:01Z" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_brand_contents_unsorted()[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:01Z" name="validate_brand_contents_unsorted" description="Validate Brand Dropdown content is unsorted" finished-at="2021-10-19T18:18:03Z" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_brand_contents_unsorted -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:03Z" name="teardown" finished-at="2021-10-19T18:18:03Z" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=validate_brand_contents_unsorted status=SUCCESS method=ChooseBrand_Test.validate_brand_contents_unsorted()[pri:0, instance:Test.ChooseBrand_Test@40a4337a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:03Z" name="setup" finished-at="2021-10-19T18:18:04Z" duration-ms="994" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_total_brands()[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:04Z" name="validate_total_brands" description="Validate Brand Size #254" finished-at="2021-10-19T18:18:04Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_total_brands -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:04Z" name="teardown" finished-at="2021-10-19T18:18:04Z" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=validate_total_brands status=SUCCESS method=ChooseBrand_Test.validate_total_brands()[pri:0, instance:Test.ChooseBrand_Test@40a4337a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:Test.ChooseBrand_Test@40a4337a]" started-at="2021-10-19T18:18:17Z" name="tearDownTest" finished-at="2021-10-19T18:18:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- Test.ChooseBrand_Test -->
+      <class name="Test.Email_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:04Z" name="setup" finished-at="2021-10-19T18:18:05Z" duration-ms="1036" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enter_Blank_Email()[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:05Z" name="enter_Blank_Email" description="Validate Blank Email!" finished-at="2021-10-19T18:18:06Z" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Blank_Email -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:06Z" name="teardown" finished-at="2021-10-19T18:18:06Z" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=enter_Blank_Email status=SUCCESS method=Email_Test.enter_Blank_Email()[pri:0, instance:Test.Email_Test@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:06Z" name="setup" finished-at="2021-10-19T18:18:07Z" duration-ms="1049" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enter_Email()[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:07Z" name="enter_Email" description="Validate Email Success!" finished-at="2021-10-19T18:18:07Z" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Email -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:07Z" name="teardown" finished-at="2021-10-19T18:18:08Z" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=enter_Email status=SUCCESS method=Email_Test.enter_Email()[pri:0, instance:Test.Email_Test@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:08Z" name="setup" finished-at="2021-10-19T18:18:09Z" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enter_Invalid_Email()[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:09Z" name="enter_Invalid_Email" description="Invalidate Email Format Error!" finished-at="2021-10-19T18:18:09Z" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Invalid_Email -->
+        <test-method is-config="true" signature="teardown(java.lang.String, org.testng.ITestResult)[pri:0, instance:Test.Email_Test@327514f]" started-at="2021-10-19T18:18:09Z" name="teardown" finished-at="2021-10-19T18:18:09Z" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=enter_Invalid_Email status=SUCCESS method=Email_Test.enter_Invalid_Email()[pri:0, instance:Test.Email_Test@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.Email_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

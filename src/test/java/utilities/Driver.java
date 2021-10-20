@@ -9,7 +9,6 @@ public class Driver {
 
     private static WebDriver driver;
 
-
     private Driver() {
     }
 
@@ -32,7 +31,6 @@ public class Driver {
     }
 
     public static WebDriver getDriver() {
-
         return getDriver(null);
     }
 

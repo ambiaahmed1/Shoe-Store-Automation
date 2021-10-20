@@ -38,6 +38,30 @@ public class ShoePage extends BasePage {
     @FindBy(linkText = "May")
     private WebElement may;
 
+    @FindBy(linkText = "June")
+    private WebElement june;
+
+    @FindBy(linkText = "July")
+    private WebElement july;
+
+    @FindBy(linkText = "August")
+    private WebElement august;
+
+    @FindBy(linkText = "September")
+    private WebElement september;
+
+    @FindBy(linkText = "October")
+    private WebElement october;
+
+    @FindBy(linkText = "November")
+    private WebElement november;
+
+    @FindBy(linkText = "December")
+    private WebElement december;
+
+    @FindBy(linkText = "All Shoes")
+    private WebElement all_shoes;
+
     @FindBy(xpath = "//input[@name='email']")
     private WebElement e_mail;
 
@@ -93,6 +117,9 @@ public class ShoePage extends BasePage {
     @FindBy(xpath = "//div[contains(text(),'Please Select a Brand')]")
     private WebElement select_brand_message;
 
+    @FindBy(xpath = "//select[@id='brand']")
+    private WebElement brand;
+
 
     public ShoePage() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -111,6 +138,7 @@ public class ShoePage extends BasePage {
         submit.isDisplayed();
         promo_code.isDisplayed();
         home.isDisplayed();
+        brand.isDisplayed();
     }
 
     public void validateNavComponent() {
@@ -118,32 +146,32 @@ public class ShoePage extends BasePage {
 
         while (month.hasNext()) {
             WebElement element = month.next();
-            System.out.println("===========" +element.getText());
+            System.out.println("===========" + element.getText());
             if (element.getText().equals("January")) {
                 Assert.assertEquals(element.getText(), "January");
-            } else if(element.getText().equals("February")) {
+            } else if (element.getText().equals("February")) {
                 Assert.assertEquals(element.getText(), "February");
-            } else if(element.getText().equals("March")) {
+            } else if (element.getText().equals("March")) {
                 Assert.assertEquals(element.getText(), "March");
-            } else if(element.getText().equals("April")) {
+            } else if (element.getText().equals("April")) {
                 Assert.assertEquals(element.getText(), "April");
-            } else if(element.getText().equals("May")) {
+            } else if (element.getText().equals("May")) {
                 Assert.assertEquals(element.getText(), "May");
-            } else if(element.getText().equals("June")) {
+            } else if (element.getText().equals("June")) {
                 Assert.assertEquals(element.getText(), "June");
-            }  else if(element.getText().equals("July")) {
+            } else if (element.getText().equals("July")) {
                 Assert.assertEquals(element.getText(), "July");
-            }  else if(element.getText().equals("August")) {
-                    Assert.assertEquals(element.getText(), "August");
-            }  else if(element.getText().equals("September")) {
+            } else if (element.getText().equals("August")) {
+                Assert.assertEquals(element.getText(), "August");
+            } else if (element.getText().equals("September")) {
                 Assert.assertEquals(element.getText(), "September");
-            }  else if(element.getText().equals("October")) {
+            } else if (element.getText().equals("October")) {
                 Assert.assertEquals(element.getText(), "October");
-            }  else if(element.getText().equals("November")) {
+            } else if (element.getText().equals("November")) {
                 Assert.assertEquals(element.getText(), "November");
-            }  else if(element.getText().equals("December")) {
+            } else if (element.getText().equals("December")) {
                 Assert.assertEquals(element.getText(), "December");
-            }  else if(element.getText().equals("All Shoes")) {
+            } else if (element.getText().equals("All Shoes")) {
                 Assert.assertEquals(element.getText(), "All Shoes");
             } else {
                 Assert.fail();
@@ -159,11 +187,49 @@ public class ShoePage extends BasePage {
         february.click();
     }
 
-    public void goToMarch() {march.click();}
+    public void goToMarch() {
+        march.click();
+    }
 
-    public void goToApril() {april.click();}
+    public void goToApril() {
+        april.click();
+    }
 
-    public void goToMay() {may.click();}
+    public void goToMay() {
+        may.click();
+    }
+
+    public void goToJune() {
+        june.click();
+    }
+
+    public void goToJuly() {
+        july.click();
+    }
+
+    public void goToAuguest() {
+        august.click();
+    }
+
+    public void goToSeptember() {
+        september.click();
+    }
+
+    public void goToOctober() {
+        october.click();
+    }
+
+    public void goToNovember() {
+        november.click();
+    }
+
+    public void goToDecember() {
+        december.click();
+    }
+
+    public void goToAllShoes() {
+        all_shoes.click();
+    }
 
     public void goBack() {
         Driver.getDriver().navigate().back();
@@ -242,6 +308,32 @@ public class ShoePage extends BasePage {
         Assert.assertEquals(ifSortedAscending, false);
     }
 
+    public void validateforfirstLetter() {
+        Select dropDown = new Select(selectBrand);
+        List<WebElement> dropDownOptions = dropDown.getOptions();
+
+        int lowercase = 0;
+        int uppercase = 0;
+        ArrayList<String> arr = new ArrayList<String>();
+        for (WebElement dropDownOption : dropDownOptions) {
+            //System.out.println(dropDownOption.getText());
+            char[] charArr = dropDownOption.getText().toCharArray();
+            char firstLetter = charArr[0];
+
+            boolean lower = Character.isLowerCase(firstLetter);
+            boolean upper = Character.isLowerCase(firstLetter);
+            if (lower) {
+                ++lowercase;
+                arr.add(dropDownOption.getText());
+                System.out.println(dropDownOption.getText());
+            } else {
+                ++uppercase;
+            }
+        }
+        System.out.println("Total letters start with Uppercase: " + uppercase);
+        System.out.println("Total letters start with Lowercase: " + lowercase + " " + arr);
+    }
+
 
     public void validateBrands() {
         Select dropDown = new Select(selectBrand);
@@ -258,7 +350,6 @@ public class ShoePage extends BasePage {
 
         System.out.println(allBrands);
         System.out.println(actual);
-
     }
 }
 
