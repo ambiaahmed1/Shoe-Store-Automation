@@ -1,4 +1,4 @@
-# shoe-store-automate
+# Shoe-Store-Automate
 Shoe Store!
 
 ## Technical Specifications
