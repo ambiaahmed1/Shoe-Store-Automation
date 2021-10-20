@@ -7,6 +7,7 @@ public class Nav_Test extends TestBase {
 
     @Test(description = "Validate Page Navigation Across all Pages")
     public void pageNavigation() {
+        report.createTest("Validate Page Navigation Across all Pages");
         pages.shoePage();
         pages.shoePage().goToJanuary();
         pages.januaryPage().validateTitle();

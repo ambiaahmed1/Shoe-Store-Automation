@@ -292,7 +292,7 @@ public class ShoePage extends BasePage {
         Assert.assertEquals(dropDownOptions.size(), value);
     }
 
-    public void validateBrandUnSorted() {
+    public void validateBrandSorted() {
         Select dropDown = new Select(selectBrand);
         List<WebElement> dropDownOptions = dropDown.getOptions();
         List<String> options = new ArrayList<String>();
