@@ -85,5 +85,6 @@ Then I will see 254 brand names in alpha numeric
  2.	After completing a brand search and clicking the back button, message remains “Please Select a Brand”.
  3.	Input Text fields does not have any boundaries.
  4.	Failing to load images.
- 5.	kate spade newyork starts with lowercase "k".
+ 5.	kate spade newyork starts with lowercase.
+ 6.	rag bone starts with lowercase.
 
