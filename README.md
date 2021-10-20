@@ -81,10 +81,11 @@ Then I will see 254 brand names in alpha numeric
 
   
 **Issues:**
- 1.	Promotional Code does not give you the valid format on error message.
- 2.	After completing a brand search and clicking the back button, message remains “Please Select a Brand”.
- 3.	Input Text fields does not have any boundaries.
- 4.	Failing to load images.
- 5.	kate spade newyork starts with lowercase.
- 6.	rag bone starts with lowercase.
+ 1.	Title for all shoes is missing.
+ 2.	Promotional Code does not give you the valid format on error message.
+ 3.	After completing a brand search and clicking the back button, message remains “Please Select a Brand”.
+ 4.	Input Text fields does not have any boundaries.
+ 5.	Failing to load images.
+ 6.	kate spade newyork starts with lowercase.
+ 7.	rag bone starts with lowercase.
 
