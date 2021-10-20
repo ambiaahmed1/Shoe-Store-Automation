@@ -11,6 +11,10 @@ Shoe Store!
 * git clone https://github.com/ambiaahmed1/Shoe-Store_Auto.git
 * maven clean, install (will run tests if not skipped)
 * run test individually from test package
+* Go to > test-output > reports > current date > report.html (See below)
+
+![image](https://user-images.githubusercontent.com/9343284/138035981-875c2d96-f631-4c46-b284-8ea73eb8529d.png)
+
 
 ## Test Case
 
