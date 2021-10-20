@@ -8,7 +8,7 @@ Shoe Store!
 * Allure Reports v2.13.2
 
 ## How to Run Project
-* git clone https://github.com/ambiaahmed1/Shoe-Store_Auto.git
+* git clone https://github.com/ambiaahmed1/Shoe-Store_Auto.git (Do not download as zip)
 * maven clean, install (will run tests if not skipped)
 * run test individually from test package
 * Go to > test-output > reports > current date > report.html (See below)
